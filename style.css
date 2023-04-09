@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+
+body{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper{
+	margin-top: 50px;
+	width: 500px;
+	background-color: orange;
+	padding: 20px;
+}
+
+/*----------------------------*/
+.titre{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+form{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	padding-bottom: 10px;
+}
+ul{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 20px;
+	position: relative;
+}
+/*------------------*/
+.recherche{
+	position: relative;
+}
+/*----------------*/
+.rechercher input{
+
+}
+.rechercher button{
+	position: absolute;
+	right: 0;
+}
+ul li{
+	position: relative;
+	background-color: black;
+	color: white;
+	width: 90%;
+	height: 50px;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	padding-left: 30px;
+}
+/*-------------------*/
+ul li span{
+	position: absolute;
+	right: 0;	
+	top: 0;
+	height: 100%;
+	width: 50px;
+	cursor: pointer;
+}
+ul li .carreVert{
+	background-color: green;
+	right: 50px;
+	border-radius: 0;
+}
+ul li .carreRouge{
+	background-color: red;
+	border-radius: 0 20px 20px 0; 	 
+}
+ul li .todo{
+	font-size: 20px;
+}
+ul li .todo.barre{
+	text-decoration: line-through;
+}
